@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "backstage-actions": {
+      "url": "http://localhost:7007/api/mcp-actions/v1/sse",
+      "headers": {
+        "Authorization": "Bearer ${MCP_TOKEN}"
+      }
+    }
+  }
+}
