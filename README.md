@@ -14,7 +14,7 @@ To reproduce this bug:
 
 In Cursor, add [mcp.json](./mcp.json) as an MCP tool under `Cursor Settings`. Make sure to set `${MCP_TOKEN}` to the value set above.
 
-With `backend.auth.dangerouslyDisableDefaultAuthPolicy` set to false (or not present) Cursor will never connect to the MCP server:
+With `backend.auth.dangerouslyDisableDefaultAuthPolicy` set to false (or not present) Cursor will never connect to the MCP server (forever showing an orange dot and `loading tools`):
 
 <img width="673" alt="Screenshot 2025-06-27 at 1 05 48 AM" src="https://github.com/user-attachments/assets/49b08009-2dbc-4c11-8b5f-0d81cabe79e5" />
 
